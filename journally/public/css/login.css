@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  margin: 0;
+}
+.v1_2 {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#8a2be2, rgba(214, 194, 255, 0.8999999761581421));
+  position: relative;
+  overflow: hidden;
+}
+.v1_3 {
+  width: 413px;
+  height: 495px;
+  background: url("../images/book.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 265px;
+  left: 885px;
+}
+.v1_4 {
+  color: rgba(105, 38, 147, 1);
+  position: absolute;
+  top: 205px;
+  left: 89px;
+  font-weight: bold;
+  font-size: 150px;
+}
+.v1_5 {
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 356px;
+  left: 148px;
+  font-weight: bold;
+  font-size: 64px;
+}
+.v1_6 {
+  color: rgba(235, 230, 239, 1);
+  position: absolute;
+  top: 217px;
+  left: 137px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.v1_7,
+.v1_14 {
+  width: 529px;
+  height: 55px;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  left: 137px;
+}
+.v1_7 {
+  top: 709px;
+}
+.v1_14 {
+  top: 575px;
+}
+.input_email
+{
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0 15px;
+  font-size: 18px; 
+}
+.input_password {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0 15px;
+  font-size: 18px;
+}
+.input_email:focus,
+.input_password:focus {
+  outline: none;
+}
+.v1_8 {
+  width: 163px;
+  height: 62px;
+  background: rgba(105, 38, 147, 1);
+  position: absolute;
+  top: 804px;
+  left: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login_button:hover {
+  background-color: #4c1c6e;
+  transform: scale(1.05);
+}
+
+.v1_9,
+.v1_10,
+.v1_11,
+.v1_12 {
+  color: rgba(105, 38, 147, 1);
+  font-weight: bold;
+  position: absolute;
+  text-align: left;
+}
+.v1_9 {
+  top: 523px;
+  left: 137px;
+  font-size: 32px;
+}
+.v1_10 {
+  top: 660px;
+  left: 137px;
+  font-size: 32px;
+}
+.v1_11 {
+  top: 766px;
+  left: 483px;
+  font-size: 20px;
+  text-align: center;
+}
+.v1_12 {
+  top: 868px;
+  left: 133px;
+  font-size: 20px;
+  text-align: center;
+}
+.v1_13 {
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 810px;
+  left: 167px;
+  font-size: 32px;
+  text-align: left;
+}
+.v1_15 {
+  width: 473px;
+  height: 96px;
+  background: url("../images/v1_15.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 709px;
+  left: 855px;
+}
+.v1_16,
+.v1_17 {
+  color: rgba(105, 38, 147, 1);
+  font-weight: semi-bold;
+  position: absolute;
+}
+.v1_16 {
+  top: 0;
+  left: 0;
+  font-size: 32px;
+}
+.v1_17 {
+  top: 41px;
+  left: 47px;
+  font-size: 32px;
+}

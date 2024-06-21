@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    to right,
+    #8a2be2,
+    rgba(214, 194, 255, 0.8999999761581421)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  width: 100vw;
+  overflow-y: auto; /* Mengaktifkan scroll vertikal pada body */
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: linear-gradient(
+    to right,
+    #8a2be2,
+    rgba(214, 194, 255, 0.8999999761581421)
+  );
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.containertwo {
+  width: 95%;
+  height: 80%;
+  background-color: #5d2f79;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: linear-gradient(
+    to right,
+    #8a2be2,
+    rgba(214, 194, 255, 0.8999999761581421)
+  );
+  padding: 20px;
+  color: white;
+  position: relative;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    rgba(93, 47, 121, 1),
+    rgba(47, 0, 54, 0.4)
+  );
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 650px;
+  margin-left: -30px;
+}
+.logo img {
+  width: 150px;
+  margin-right: 10px;
+}
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.back-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+.date-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    rgba(93, 47, 121, 1),
+    rgba(47, 0, 54, 0.4)
+  );
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 450px;
+}
+.date img {
+  width: 50px;
+}
+.date span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.back {
+  position: relative;
+}
+.back img {
+  width: 80px;
+}
+.content {
+  position: absolute;
+  top: 20px; /* Kurangi nilai ini untuk mengurangi ruang kosong di bagian atas */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px; /* Kurangi padding untuk mengurangi ruang kosong di bagian atas */
+  overflow-y: auto; /* Menambahkan scroll jika konten melebihi tinggi container */
+}
+.line-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.line-item {
+  display: flex;
+  align-items: center;
+  background-color: #5d2f79;
+  border-radius: 5px;
+  padding: 10px 20px;
+  height: 60px; /* Tinggi item */
+  position: relative;
+  border-bottom: 1px solid #efdff8;
+}
+.checkbox {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.line-item input[type="text"] {
+  flex-grow: 1;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 18px;
+  background-color: #5d2f79;
+  color: #ffffff;
+}
+.line-item input[type="text"]:focus {
+  outline: none;
+  background-color: #5d2f79;
+}
+a {
+  color: #ffffff; /* Mengubah warna teks link */
+  text-decoration: none; /* Menghapus garis bawah pada teks link */
+  font-size: 20px; /* Mengubah ukuran font */
+}
